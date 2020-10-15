@@ -1,26 +1,39 @@
-/* This is the CSS stylesheet. It sets how things should look.
-Feel free to play with it!*/
 
 @font-face {
-    font-family: 'lockergnome';
-    /* Can you fix the url to find the ttf font file? */
-    /* The following line should be something like: */
-    /* src: url('location/of/font.ttf'); */
-    src: url('');
+    font-family: 'Lekton-Regular';
+    src: url('src/fonts/Lekton-Regular.ttf');
 }
 
 * {
-    font-family: 'lockergnome';
+    font-family: 'Lekton-Regular';
     background-color: beige;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 body {
     max-width: 1024px;
+    padding: 0 64px 64px;
     margin: 0 auto; 
 }
 
 h1 {    
     font-size: 3em;
     color: pink;
+}
+
+a {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 24px;
 }
